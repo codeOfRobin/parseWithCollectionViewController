@@ -15,13 +15,23 @@
 		7AE1F5BC194CDA3B009389EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE1F5BB194CDA3B009389EC /* AppDelegate.m */; };
 		7AE1F5BF194CDA3B009389EC /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AE1F5BD194CDA3B009389EC /* Main_iPhone.storyboard */; };
 		7AE1F5C2194CDA3B009389EC /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AE1F5C0194CDA3B009389EC /* Main_iPad.storyboard */; };
-		7AE1F5C5194CDA3B009389EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE1F5C4194CDA3B009389EC /* ViewController.m */; };
 		7AE1F5C7194CDA3B009389EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AE1F5C6194CDA3B009389EC /* Images.xcassets */; };
 		7AE1F5CE194CDA3B009389EC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE1F5CD194CDA3B009389EC /* XCTest.framework */; };
 		7AE1F5CF194CDA3B009389EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE1F5AB194CDA3B009389EC /* Foundation.framework */; };
 		7AE1F5D0194CDA3B009389EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE1F5AF194CDA3B009389EC /* UIKit.framework */; };
 		7AE1F5D8194CDA3B009389EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7AE1F5D6194CDA3B009389EC /* InfoPlist.strings */; };
 		7AE1F5DA194CDA3B009389EC /* parseWithCollectionViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE1F5D9194CDA3B009389EC /* parseWithCollectionViewControllerTests.m */; };
+		7AE1F5E4194CDAA7009389EC /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE1F5E3194CDAA6009389EC /* Parse.framework */; };
+		7AE1F5E6194CDD4C009389EC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE1F5E5194CDD4C009389EC /* AudioToolbox.framework */; };
+		7AE1F5E8194CDD53009389EC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE1F5E7194CDD53009389EC /* CFNetwork.framework */; };
+		7AE1F5EA194CDD61009389EC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE1F5E9194CDD61009389EC /* CoreLocation.framework */; };
+		7AE1F5EC194CDD67009389EC /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE1F5EB194CDD67009389EC /* libz.dylib */; };
+		7AE1F5EE194CDD6E009389EC /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE1F5ED194CDD6E009389EC /* MobileCoreServices.framework */; };
+		7AE1F5F0194CDD73009389EC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE1F5EF194CDD73009389EC /* QuartzCore.framework */; };
+		7AE1F5F2194CDD7A009389EC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE1F5F1194CDD7A009389EC /* Security.framework */; };
+		7AE1F5F4194CDD82009389EC /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE1F5F3194CDD82009389EC /* StoreKit.framework */; };
+		7AE1F5F6194CDD89009389EC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE1F5F5194CDD89009389EC /* SystemConfiguration.framework */; };
+		7AE1F5F9194CE45F009389EC /* TableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE1F5F8194CE45F009389EC /* TableTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +57,24 @@
 		7AE1F5BB194CDA3B009389EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7AE1F5BE194CDA3B009389EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		7AE1F5C1194CDA3B009389EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		7AE1F5C3194CDA3B009389EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7AE1F5C4194CDA3B009389EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7AE1F5C6194CDA3B009389EC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7AE1F5CC194CDA3B009389EC /* parseWithCollectionViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = parseWithCollectionViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AE1F5CD194CDA3B009389EC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7AE1F5D5194CDA3B009389EC /* parseWithCollectionViewControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "parseWithCollectionViewControllerTests-Info.plist"; sourceTree = "<group>"; };
 		7AE1F5D7194CDA3B009389EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7AE1F5D9194CDA3B009389EC /* parseWithCollectionViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = parseWithCollectionViewControllerTests.m; sourceTree = "<group>"; };
+		7AE1F5E3194CDAA6009389EC /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		7AE1F5E5194CDD4C009389EC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7AE1F5E7194CDD53009389EC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		7AE1F5E9194CDD61009389EC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7AE1F5EB194CDD67009389EC /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		7AE1F5ED194CDD6E009389EC /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		7AE1F5EF194CDD73009389EC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7AE1F5F1194CDD7A009389EC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		7AE1F5F3194CDD82009389EC /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		7AE1F5F5194CDD89009389EC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7AE1F5F7194CE45F009389EC /* TableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableTableViewController.h; path = ../TableTableViewController.h; sourceTree = "<group>"; };
+		7AE1F5F8194CE45F009389EC /* TableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableTableViewController.m; path = ../TableTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +82,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AE1F5F6194CDD89009389EC /* SystemConfiguration.framework in Frameworks */,
+				7AE1F5F4194CDD82009389EC /* StoreKit.framework in Frameworks */,
+				7AE1F5F2194CDD7A009389EC /* Security.framework in Frameworks */,
+				7AE1F5F0194CDD73009389EC /* QuartzCore.framework in Frameworks */,
+				7AE1F5EE194CDD6E009389EC /* MobileCoreServices.framework in Frameworks */,
+				7AE1F5EC194CDD67009389EC /* libz.dylib in Frameworks */,
+				7AE1F5EA194CDD61009389EC /* CoreLocation.framework in Frameworks */,
 				7AE1F5AE194CDA3B009389EC /* CoreGraphics.framework in Frameworks */,
+				7AE1F5E8194CDD53009389EC /* CFNetwork.framework in Frameworks */,
+				7AE1F5E6194CDD4C009389EC /* AudioToolbox.framework in Frameworks */,
 				7AE1F5B0194CDA3B009389EC /* UIKit.framework in Frameworks */,
+				7AE1F5E4194CDAA7009389EC /* Parse.framework in Frameworks */,
 				7AE1F5AC194CDA3B009389EC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,6 +133,16 @@
 		7AE1F5AA194CDA3B009389EC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7AE1F5F5194CDD89009389EC /* SystemConfiguration.framework */,
+				7AE1F5F3194CDD82009389EC /* StoreKit.framework */,
+				7AE1F5F1194CDD7A009389EC /* Security.framework */,
+				7AE1F5EF194CDD73009389EC /* QuartzCore.framework */,
+				7AE1F5ED194CDD6E009389EC /* MobileCoreServices.framework */,
+				7AE1F5EB194CDD67009389EC /* libz.dylib */,
+				7AE1F5E9194CDD61009389EC /* CoreLocation.framework */,
+				7AE1F5E7194CDD53009389EC /* CFNetwork.framework */,
+				7AE1F5E5194CDD4C009389EC /* AudioToolbox.framework */,
+				7AE1F5E3194CDAA6009389EC /* Parse.framework */,
 				7AE1F5AB194CDA3B009389EC /* Foundation.framework */,
 				7AE1F5AD194CDA3B009389EC /* CoreGraphics.framework */,
 				7AE1F5AF194CDA3B009389EC /* UIKit.framework */,
@@ -114,12 +154,12 @@
 		7AE1F5B1194CDA3B009389EC /* parseWithCollectionViewController */ = {
 			isa = PBXGroup;
 			children = (
+				7AE1F5F7194CE45F009389EC /* TableTableViewController.h */,
+				7AE1F5F8194CE45F009389EC /* TableTableViewController.m */,
 				7AE1F5BA194CDA3B009389EC /* AppDelegate.h */,
 				7AE1F5BB194CDA3B009389EC /* AppDelegate.m */,
 				7AE1F5BD194CDA3B009389EC /* Main_iPhone.storyboard */,
 				7AE1F5C0194CDA3B009389EC /* Main_iPad.storyboard */,
-				7AE1F5C3194CDA3B009389EC /* ViewController.h */,
-				7AE1F5C4194CDA3B009389EC /* ViewController.m */,
 				7AE1F5C6194CDA3B009389EC /* Images.xcassets */,
 				7AE1F5B2194CDA3B009389EC /* Supporting Files */,
 			);
@@ -253,7 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AE1F5C5194CDA3B009389EC /* ViewController.m in Sources */,
+				7AE1F5F9194CE45F009389EC /* TableTableViewController.m in Sources */,
 				7AE1F5BC194CDA3B009389EC /* AppDelegate.m in Sources */,
 				7AE1F5B8194CDA3B009389EC /* main.m in Sources */,
 			);
@@ -390,6 +430,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "parseWithCollectionViewController/parseWithCollectionViewController-Prefix.pch";
 				INFOPLIST_FILE = "parseWithCollectionViewController/parseWithCollectionViewController-Info.plist";
@@ -403,6 +447,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "parseWithCollectionViewController/parseWithCollectionViewController-Prefix.pch";
 				INFOPLIST_FILE = "parseWithCollectionViewController/parseWithCollectionViewController-Info.plist";
