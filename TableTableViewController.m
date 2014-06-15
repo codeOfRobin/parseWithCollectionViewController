@@ -46,11 +46,31 @@
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
     [self.tableView reloadData];
+    
+    UIRefreshControl *refresh=[[UIRefreshControl alloc] init];
+    [refresh setAttributedTitle:[[NSAttributedString alloc]initWithString:@"pull to refresh"]];
+    [refresh addTarget:self action:@selector(refreshData) forControlEvents:UIControlEventValueChanged];
+    self.refreshControl=refresh;
+    
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+}
+
+-(void)refreshData
+{
+    PFObject *tempObject = [self.objs objectAtIndex:5];
+    NSLog(@"%@",[tempObject objectForKey:@"Date"]);
+    [self performSelector:@selector(updateTable) withObject:nil afterDelay:5];
+
+}
+
+-(void)updateTable
+{
+    [self.tableView reloadData];
+    [self.refreshControl endRefreshing];
 }
 
 - (void)didReceiveMemoryWarning
@@ -63,14 +83,12 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
     // Return the number of sections.
     return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
     // Return the number of rows in the section.
     return [self.objs count];
 }
@@ -82,7 +100,7 @@
     
     PFObject *tempObject = [self.objs objectAtIndex:indexPath.row];
     
-    cell.textLabel.text = [tempObject objectForKey:@"Contact"];
+    cell.textLabel.text = [tempObject objectForKey:@"name"];
     // Configure the cell...
     
     return cell;
