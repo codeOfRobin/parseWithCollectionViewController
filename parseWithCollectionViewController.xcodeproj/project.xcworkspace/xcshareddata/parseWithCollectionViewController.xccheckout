@@ -5,19 +5,31 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
+<<<<<<< HEAD
 	<string>70341D60-4A25-44BC-AA0D-24288FD9DD96</string>
+=======
+	<string>D2ED2A42-6583-493E-8DE4-D2679859ABDB</string>
+>>>>>>> FETCH_HEAD
 	<key>IDESourceControlProjectName</key>
 	<string>parseWithCollectionViewController</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+<<<<<<< HEAD
 		<key>12F9D23E-C426-4B07-A781-FF1BAB98DFDB</key>
+=======
+		<key>4860950A-B420-43D8-8427-33997B859144</key>
+>>>>>>> FETCH_HEAD
 		<string>https://github.com/codeofRobin/parseWithCollectionViewController.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>parseWithCollectionViewController.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+<<<<<<< HEAD
 		<key>12F9D23E-C426-4B07-A781-FF1BAB98DFDB</key>
+=======
+		<key>4860950A-B420-43D8-8427-33997B859144</key>
+>>>>>>> FETCH_HEAD
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +37,22 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
+<<<<<<< HEAD
 	<string>12F9D23E-C426-4B07-A781-FF1BAB98DFDB</string>
+=======
+	<string>4860950A-B420-43D8-8427-33997B859144</string>
+>>>>>>> FETCH_HEAD
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
+<<<<<<< HEAD
 			<string>12F9D23E-C426-4B07-A781-FF1BAB98DFDB</string>
+=======
+			<string>4860950A-B420-43D8-8427-33997B859144</string>
+>>>>>>> FETCH_HEAD
 			<key>IDESourceControlWCCName</key>
 			<string>parseWithCollectionViewController</string>
 		</dict>
